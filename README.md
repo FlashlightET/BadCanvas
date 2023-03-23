@@ -1,5 +1,5 @@
 # BadCanvas
-Bad Apple on the SC-88pro. Also runs on the SC-55, SC-88, SC-8850, and SD-90, etc.
+Bad Apple on the SC-88pro. Also runs on the SC-55, SC-88, SC-8850, and SD-90, etc. Plays at 27.6fps.
 
 Code sucks. Includes arbitrary numbers used to get the timing correct.
 
@@ -24,3 +24,6 @@ in the directory of the folder (in this case, `i:\\apple\\in\\`). **please don't
 
 # regarding midi devices in the realtime script
 when the script is run, the midi outputs will be listed. find your midi device and set outport to open that instead of "USB MIDI Interface 2".
+
+# Creating a labels.txt
+In Audacity, import the video and press ctrl+b to add labels. Make sure the lengths to not exceed 15 characters. The script will automatically cut off longer text. This is to prevent the text scrolling. Export the labels in file>export>labels and export it to labels.txt in the directory.
